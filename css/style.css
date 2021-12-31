@@ -1,0 +1,44 @@
+:root {
+  --color-bg: #674baf;
+  --color-primary: #fff;
+  --color-accent: #e882e8;
+
+  --fs-xl: 4.2rem;
+  --fs-600: 3.2rem;
+  --fs-500: 1.8rem;
+  --fs-400: 1.6rem;
+  --fs-300: 1.2rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: var(--fs-400);
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
+h1 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: var(--fs-600);
+}
+
+/* Attributions */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
